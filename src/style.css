@@ -25,6 +25,9 @@ body {
     font-weight: 100;
     margin-bottom: 0;
     margin-top: 6px;
+    
+}
+#input:hover {
     box-shadow: 0px 0px 6px 2px #1095c1;
 }
 #input::placeholder {
@@ -36,9 +39,12 @@ body {
     font-weight: 400;
     margin-top: 2px;
 }
-#form button {
+#submit {
     font-size: 1.8rem;
     font-weight: 600;
+    box-shadow: 5px 5px 5px 0px #1d2b36, inset 4px 4px 15px 0px #95a6b2, 4px 4px 22px 0px #002b4e;
+    border-radius: 0.50rem;
+    border-color: #2c2c2c;
 }
 #results {
     text-align: start;
